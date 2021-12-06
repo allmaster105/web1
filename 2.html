@@ -3,24 +3,46 @@
 <head>
   <title>메뉴</title>
   <meta charset="utf-8">
+  <style>
+  a {
+    color:yellow;
+  }
+  body {
+    background-image: url(간판.jpg);
+    background-size: contain;
+    color : #D8D8D8;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr
+  }
+  #grid ul{
+    padding-left: 33px;
+  }
+  #grid #article{
+    padding-left: 25px;
+  }
+  </style>
 </head>
 <body>
-  <body bgcolor="#e1eff2">
- <center><h1><font size="7"><a href="index.html">대동국수 업무</a></font></h1></center>
+ <center><h1><font size="7">대동국수 직원</font></h1></center>
  <a href="index.html"><center><img src="대동 로고.PNG"><br></center></a>
-<ul>
+<div id="grid">
+  <ul>
+    <li><h3><a href="7.html">1. 국수/보쌈/전</a></h3></li>
 
-  <li><h3><a href="7.html">1. 국수/보쌈/전</a></h3></li>
+    <li><h3><a href="8.html">2. 별미</a></h3></li>
 
-  <li><h3><a href="8.html">2. 별미</a></h3></li>
+    <li><h3><a href="9.html">3. 튀김</a></h3></li>
 
-  <li><h3><a href="9.html">3. 튀김</a></h3></li>
+    <li><h3><a href="10.html">4. 볶음</a></h3></li>
 
-  <li><h3><a href="10.html">4. 볶음</a></h3></li>
+    <li><h3><a href="11.html">5. 탕</a></h3></li>
 
-  <li><h3><a href="11.html">5. 탕</a></h3></li>
-
-</ul>
+  </ul>
+  <div id="article">
+</div>
+</div>
 
 </body>
 </html>
